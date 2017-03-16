@@ -1,0 +1,6 @@
+{
+        "Facebook": {"photo": ["photo1.jpg"], "name":"Srini", "email": ["sri..umalr@gmail.com"], "Address":"Mission Blvd"}, 
+        "Twitter":  {"photo": [],"name":"DunnQ", "email": ["sri..umalr@gmail.com"], "Address":"Flora Vista"},
+        "Pintrest": {"photo": [],"name":"RajV", "email": ["sri..umalr@gmail.com"]}, 
+        "LinkedIn": {"photo": [],"name":"SriniP", "email": ["sri..umalr@gmail.com"]}
+    }

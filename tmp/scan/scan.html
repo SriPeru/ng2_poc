@@ -1,0 +1,19 @@
+<md-card layout-margin class="scan">
+    <img src="./assets/img/Logo-Big.png" class="md-card-image" alt="Imagery" width="226" height="186">
+    <p class="title-info">See your App Score online
+    <br />
+    <br />
+    </p>
+  <md-card-content>
+     <button  class="md-raised buttonRounded buttonBlue" md-raised-button [routerLink]="['/Dashboard']">
+          <span class="md-button-wrapper">One Time Scan</span><div class="md-ripple-container"></div></button>
+      
+      <button  class="md-raised buttonRounded" md-raised-button>
+          <span class="md-button-wrapper">Login with Facebook</span><div class="md-ripple-container"></div></button>
+  </md-card-content>
+    <md-card-actions layout="row" layout-align="center center">
+        <button [routerLink]="['/Login']" md-button>Login with Email</button>
+        <button [routerLink]="['/Create']" md-button>Create Account</button>
+      </md-card-actions>
+</md-card>
+

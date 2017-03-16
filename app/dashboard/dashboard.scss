@@ -1,0 +1,20 @@
+.info-receive{
+    position: absolute;
+    width: 500px;
+    top: 10%;
+    left:30%
+}
+
+md-card.info-receive img{width: 226px; height: 186px;     align-self: center;margin-bottom: 15px;}
+
+#popupContainer {
+  position: relative;
+}
+.footer {
+  width: 100%;
+  text-align: center;
+}
+.footer, .footer > code {
+  font-size: 0.8em;
+  margin-top: 50px;
+}

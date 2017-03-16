@@ -1,0 +1,16 @@
+<section class="material-app-content">
+  <md-toolbar class="md-whiteframe-z1" style="display: block" [ngStyle]="styl">
+    <nav class="md-toolbar-tools">
+      <button md-button alt="Home" class="md-icon-button" [routerLink]="['/Scan']"><i class="logo-hand" ></i></button>
+      <h1 flex><strong>App</strong>Score</h1>
+      <button md-button [routerLink]="['/Login']">login</button> 
+        <button md-button [routerLink]="['/About']">About</button>
+        <button md-button [routerLink]="['/Support']">Support</button>
+    </nav>
+  </md-toolbar>
+
+  <md-content layout-padding layout="column" layout-align="center center">
+    <router-outlet></router-outlet>
+  </md-content>
+
+</section>

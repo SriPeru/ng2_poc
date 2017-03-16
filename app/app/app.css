@@ -1,0 +1,6 @@
+body{background: #e4ecf6}
+md-content{background: transparent}
+
+md-toolbar:not(.md-menu-toolbar) {
+    background-color: #3a556f;
+}
